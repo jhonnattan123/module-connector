@@ -1,2 +1,2 @@
-# ModuleConnector
-objeto utilizado para conectar distintos componentes de backend y frontend. con el objetivo de poder controlar de mejor manera los distintos escenarios que podrian ocurrir con la comunicacion de estos
+# module-connector
+object used to connect different backend and frontend components. in order to better control the different scenarios that could occur with the communication of these
