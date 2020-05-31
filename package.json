@@ -1,6 +1,6 @@
 {
   "name": "module-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "object used to connect different backend and frontend components. in order to better control the different scenarios that could occur with the communication of these",
   "main": "index.js",
   "scripts": {
