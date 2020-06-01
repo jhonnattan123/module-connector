@@ -1,8 +1,8 @@
 {
   "name": "module-connector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "object used to connect different backend and frontend components. in order to better control the different scenarios that could occur with the communication of these",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
