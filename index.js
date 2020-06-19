@@ -1,8 +1,7 @@
 'use strict'
 /**
- * @version 1.0.0
+ * @version 1.0.5
  * @author Jhonnattan Rivera
- * v1.0.0 creation
  * @description 
  * object used to connect different backend and frontend components.
  */
@@ -57,6 +56,18 @@ class moduleConnector {
         return this.successFunctions( response, message, 201);
     };
 
+    accepted ( response, message) {
+        return this.successFunctions( response, message, 202);
+    };
+    
+    nonAuthoritative ( response, message) {
+        return this.successFunctions( response, message, 203);
+    };
+
+    noContent ( response, message) {
+        return this.successFunctions( response, message, 204);
+    };
+    
     badRequest ( response, message) {
         return this.failedFunctions( response, message, 400);
     };

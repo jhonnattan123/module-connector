@@ -113,6 +113,9 @@ it is recommended that all requests with code 2XX are always true and that 3XX, 
 | :------------- | :-------------: | :-------------: |
 | .ok()  | true | 200 |
 | .created()  | true | 201 |
+| .accepted()  | true | 202 |
+| .nonAuthoritative()  | true | 203 |
+| .noContent()  | true | 203 |
 | .badRequest()  | false | 400 |
 | .unauthorized()  | false | 401 |
 | .forbidden()  | false | 403 |
