@@ -1,6 +1,6 @@
 'use strict'
 /**
- * @version 1.0.5
+ * @version 1.0.7
  * @author Jhonnattan Rivera
  * @description 
  * object used to connect different backend and frontend components.
@@ -24,11 +24,11 @@ class moduleConnector {
         Object.preventExtensions(this);
     };
 
-    writeMessageAndReponse( response, message) {
+    writeMessageAndReponse( response = [], message) {
         if( typeof response == "string" && typeof message != "string" ) {
             message = response;
         } else {
-            this.response = response;
+            this.response = response || [];
         };
         if( typeof message != "undefined"){
             this.message = message;
