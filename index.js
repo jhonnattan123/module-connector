@@ -1,13 +1,13 @@
 'use strict'
 /**
- * @version 1.0.7
+ * @version 1.0.8
  * @author Jhonnattan Rivera
  * @description 
  * object used to connect different backend and frontend components.
  */
 class moduleConnector {
 
-    constructor() {
+    constructor( objectDefaultData ) {
 
         /** @boolean */
         this.success = false;
@@ -20,6 +20,11 @@ class moduleConnector {
 
         /** @obj || @array content of response*/
         this.response = [];
+
+        // set message when new instance is created
+        if( typeof objectDefaultData === "string" ){
+            this.message = objectDefaultData;
+        }
 
         Object.preventExtensions(this);
     };

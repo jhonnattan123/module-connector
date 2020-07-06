@@ -70,6 +70,15 @@ return output;
 
 ```
 
+also can define another message when new instance is create:
+
+```javascript
+
+
+//create default output from module connector
+let output = new moduleConnector( "another_default_message" );
+```
+
 ### Faileds methods
 
 in this case using the badRequest() for send a success false response with code 400.
